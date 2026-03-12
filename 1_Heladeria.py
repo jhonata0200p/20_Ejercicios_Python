@@ -10,20 +10,21 @@ while i < 5:
             
             if question == 1:
                 vainilla += 1
-                i += 1
+               
                 
             elif question == 2:
                 chocolate += 1
-                i += 1
+               
                 
             elif question == 3:
                 fresa += 1
-                i += 1
+                
             
             else:
                 print("escoge solamente 1.Vainilla , 2.Chocolate, 3.Fresa")
                 continue
-                
+            
+            i += 1
         except ValueError:
             print("valor incorrecto intentalo nuevamente")
         
