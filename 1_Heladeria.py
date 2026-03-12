@@ -19,6 +19,10 @@ while i < 5:
             elif question == 3:
                 fresa += 1
                 i += 1
+            
+            else:
+                print("escoge solamente 1.Vainilla , 2.Chocolate, 3.Fresa")
+                continue
                 
         except ValueError:
             print("valor incorrecto intentalo nuevamente")
